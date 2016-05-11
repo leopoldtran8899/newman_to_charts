@@ -1,6 +1,6 @@
 # newman_to_charts
 <p>This script takes test results from <a href="https://github.com/postmanlabs/newman">Newman</a> and produces charts</p>
-<p>You have to install <a href="https://plot.ly/python/getting-started/">Plotly</a> run this script</p>
+<p>You have to install <a href="https://plot.ly/python/getting-started/">Plotly</a> and <a href="https://github.com/postmanlabs/newman">Newman</a> to run this script</p>
 <div>
 <b>Draw Pie chart from a folder in the collection</b>
 <p>python newman_to_charts pie -c collection -e environment -n output_name -f folder_name</p>
